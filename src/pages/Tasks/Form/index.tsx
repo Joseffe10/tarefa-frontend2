@@ -87,7 +87,7 @@ const Tasks: React.FC = () => {
                             value={model.description}
                             onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}/>
                     </Form.Group>
- 
+                    <br />
                     <Button variant="dark" type="submit">
                         Salvar
                     </Button>
